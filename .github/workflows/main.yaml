@@ -34,4 +34,4 @@ jobs:
         file: ./gradle-docker-example/Dockerfile
         load: true
         push: false 
-        tags: jahanzaibbhurgri1@example:latest
+     
