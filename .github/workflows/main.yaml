@@ -23,6 +23,11 @@ jobs:
       run: |
          chmod +x ./gradlew
          ./gradlew test build 
+    
+    - name: Running the jar file
+      run: jar build/libs/hello-forge-springboot-0.0.1-SNAPSHOT.jar
+         
+
 
 
      
