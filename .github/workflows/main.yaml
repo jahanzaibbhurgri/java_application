@@ -25,7 +25,7 @@ jobs:
          ./gradlew test build 
     
     - name: Running the jar file
-      run:  java -jar build/libs/hello-forge-springboot-0.0.1-SNAPSHOT.jar && curl http://localhost:8080/
+      run:  java -jar build/libs/hello-forge-springboot-0.0.1-SNAPSHOT.jar & curl http://localhost:8080/
 
          
 
